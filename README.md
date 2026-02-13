@@ -8,7 +8,7 @@ Installation Steps
 
 Note: code of ".env" file is given in ".env.example" file
 
-1. Clone the project
+1. Clone the project present in master branch
 
 2. Install Dependencies
     composer install
@@ -34,4 +34,5 @@ Steps After Setup
 1. Login: with SuperAdmin credentials (see above)
 2. Create a Company: via the navbar "Companies" button
 3. Invite Users: to the company as Admin or Member
-4. Shorten URLs: by creating short links from the "URLs" section
+4. invitation email will be sent inside Log file (not implemented SMTP for security purpose)
+5. Shorten URLs: by creating short links from the "URLs" section
